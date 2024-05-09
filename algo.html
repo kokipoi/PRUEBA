@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body>
+
+<header class="header">
+    <a href="algo.html" id="home-link"><img src="img/logo.jpg" alt="Inicio" width="89" height="89"></a>
+    <span id="cart-count">0</span>
+    <a href="carro.png" id="cart-link"><img src="img/carro.png" alt="Carrito" width="40" height="40"></a>
+</header>
+
+<main>
+    <div class="background-image">
+      <h1 class="title_insane">ADOPTA UN PELUDO</h1>
+      <p class="texto_insane"></p>
+        
+    </div>
+
+
+    <div class="plain" style="height: 500px;">
+        <div class="cards-container">
+            <!-- Aquí irán las cartas de presentación de los animales en adopción -->
+            <div class="card">
+                <img src="img/iconnn.png" alt="Gato 1">
+                <h2>Perros</h2>
+                <p>Descripción del perro en adopción.</p>
+                <a class="btn btn-primary" href="img/adoptar1.html" role="button">Adoptar</a>
+            </div>
+            <div class="card">
+                <img src="img/gato1.jpg" alt="Gato 1">
+                <h2>Gatos</h2>
+                <p>Descripción del gato en adopción.</p>
+                <a class="btn btn-primary" href="adoptar.html" role="button">Adoptar</a>
+
+            </div>
+            <!-- Puedes agregar más cartas de presentación aquí -->
+        </div>
+    
+    </div>
+    
+</main>
+
+<footer class="footer">
+    <p style="padding-top: 4em;">&copy; 2024 Mi Tienda</p>
+</footer>
+
+<div id="cartModal" class="modal">
+    <!-- Contenido del modal del carrito -->
+</div>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

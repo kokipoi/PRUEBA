@@ -1,0 +1,136 @@
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f6bc66;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+header a {
+    position: relative;
+    width: 100%;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+#cart-count {
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+main {
+    text-align: center;
+}
+
+.background-image {
+    background-image: url('img/backg.jpg'); /* Ruta de tu imagen de fondo */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 35em;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+.card1{
+    background-color: #ff771a;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+
+}
+.card {
+    background-color: #ff771a;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.plain{
+    background-color: #f68c70;
+}
+.card h2 {
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+.card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.title_insane{
+    color: rgb(243, 166, 0);
+    text-align: center;
+    padding-top: 4em;
+}
+.texto_insane{
+    color: #f89829;
+}
+.card button:hover {
+    background-color: #555;
+}
+.cardita{
+    background-color: #f89829;
+    padding-top: 5em;
+    padding-left: 7em;
+    text-align: center;
+}
+footer{
+    background-color: #f6bc66;
+    height: 10em;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: "Oswald", sans-serif;
+}
+
+.stat{
+    padding-top: 5em;
+    padding-left: 7em;
+    text-align: center;
+
+}
+.bkgat{
+    background-color: #f57c73;
+}
+.plain1{
+    background-color: #f55c7a;
+}
